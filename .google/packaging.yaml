@@ -9,4 +9,12 @@ categories:   [Content]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-BasicContactables
+level:        INTERMEDIATE
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:android.app.SearchManager
+    - android:android.widget.SearchView
+    - android:android.app.LoaderManager
+    - android:android.content.CursorLoader
+    - android:android.provider.ContactsContract.CommonDataKinds
 license: apache2
