@@ -131,7 +131,7 @@ public class ContactablesLoaderCallbacks implements LoaderManager.LoaderCallback
             // Look at DDMS to see all the columns returned by a query to Contactables.
             // Behold, the firehose!
             for(String column : cursor.getColumnNames()) {
-                Log.d(TAG, column + column + ": " +
+                Log.d(TAG, column + ": " +
                         cursor.getString(cursor.getColumnIndex(column)) + "\n");
             }
         } while (cursor.moveToNext());
